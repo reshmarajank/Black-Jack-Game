@@ -1,0 +1,39 @@
+body {
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+h1 {
+  color: goldenrod;
+  font-size: 90px;
+}
+p {
+  color: white;
+  font-size: 50px;
+}
+button {
+  height: 40px;
+  width: 200px;
+  margin-bottom: 10px;
+  background-color: goldenrod;
+
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
+
+button:hover {
+  color: black;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#player-el {
+  color: black;
+  font-size: 33px;
+}
